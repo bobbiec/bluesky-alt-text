@@ -22,6 +22,7 @@ The files `image_posts.csv` and `top_100_users.csv` are data collected for this 
 The image description is an empty string if it was not present.
 This file was generated using `index.js` (see below, Data collection)
 during the period from July 14 to July 21, 2025.
+Note that this dataset contains sexually-explicit image descriptions.
 
 `top_100_users.csv` is a hand-labeled collection of the top users (users with the most posts) in the dataset.
 I used this to filter out the most frequently-posting bots from the dataset.
