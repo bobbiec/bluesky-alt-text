@@ -1,0 +1,6 @@
+# Dependencies
+/node_modules
+analysis/venv
+
+# Environment variables
+.env
