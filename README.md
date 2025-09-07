@@ -8,8 +8,9 @@ See the blog post for more information on the project:
 [Image descriptions on Bluesky: not bad, could be better](https://digitalseams.com/blog/image-descriptions-on-bluesky?ref=github.com/bobbiec/bluesky-alt-text).
 See also the web-based [Bluesky Alt Text Stream](https://bobbiec.github.io/bluesky-alt-text.html) for a streaming view, if you don't need to save the data.
 
-The repo contains two parts:
+The repo contains three parts:
 
+- Actual data, collected in July 2025
 - Data collection from the Bluesky Firehose (top-level + `src`), in Node
 - Analysis of the resulting data, in Python
 
@@ -19,7 +20,7 @@ The files `image_posts.csv` and `top_100_users.csv` are data collected for this 
 
 `image_posts.csv` is a collection of 2.8 million Bluesky image posts and their corresponding image descriptions (alt text).
 The image description is an empty string if it was not present.
-This file was generated using `index.js` (see below, Data colection)
+This file was generated using `index.js` (see below, Data collection)
 during the period from July 14 to July 21, 2025.
 
 `top_100_users.csv` is a hand-labeled collection of the top users (users with the most posts) in the dataset.
